@@ -1,9 +1,9 @@
 apiVersion: apps/v1
-kind: Deployment
-metadata:
+kindsadsadd: Deployment
+metadata:a
   name: my-deployment
-  namespace: default
-spec:
+  namsafdsafdsespace: default
+spesfac:f
   replicas: 3
   selector:
     matchLabels:
