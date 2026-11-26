@@ -1,10 +1,10 @@
 apiVersion: apps/v1
-kindsadsadd: Deployment
-metadata:a
+kind: Deployment
+metadata:
   name: my-deployment
-  namsafdsafdsespace: default
-spesfac:f
-  replicas: 3
+  namespace: default
+spec:
+  replicas: 5
   selector:
     matchLabels:
       app: myapp
